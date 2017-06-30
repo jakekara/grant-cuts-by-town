@@ -1,0 +1,16 @@
+{
+  "name": "budget_proposals-grant-cuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "scripts": {
+	"build": "browserify src/budget_cuts.js > js/budget_cuts.js; uglifyjs js/budget_cuts.js > js/budget_cuts.min.js",
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.9.1",
+    "numeraljs": "^1.5.6"
+  }
+}
