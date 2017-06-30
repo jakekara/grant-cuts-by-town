@@ -2505,6 +2505,7 @@ var go = function(data){
 	})
 	.enter()
 	.append("td")
+	.classed("value-col", true)
 	.classed("col", true)
 	.text(function(d, i){
 	    if ( typeof(d) == "undefined" ) return d;

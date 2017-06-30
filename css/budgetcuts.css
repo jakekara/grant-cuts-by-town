@@ -128,3 +128,7 @@ input{
     text-align: center;
     color: gray;
 }
+
+td.value-col{
+    text-align: right;
+}
